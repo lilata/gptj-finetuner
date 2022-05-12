@@ -17,9 +17,9 @@ pip install git+https://github.com/finetuneanon/transformers@gpt-j
 #need to drastically lower requirements
 git clone https://github.com/microsoft/DeepSpeed -b v0.4.4
 cd DeepSpeed
-if [ ${CUDA} = '1' ]; then
-    DS_BUILD_OPS=1 pip install .
-else
+if [ ${CUDA} = '0' ]; then
     pip install .
+else
+    DS_BUILD_OPS=1 pip install .
 fi
 ds_report
