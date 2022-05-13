@@ -1,12 +1,14 @@
 #!/bin/bash
-export HAS_CONDA=0
-hash conda >/dev/null 2>&1 && export HAS_CONDA=1
-if [ ${HAS_CONDA} = '0' ]; then
-    echo pls install conda first.
-    exit 1
-fi
-sudo apt-get install libaio1 libaio-dev
-
+sudo apt update
+sudo apt-get install libaio1 libaio-dev gnupg -y
+sudo curl https://repo.anaconda.com/pkgs/misc/gpgkeys/anaconda.asc | gpg --dearmor > conda.gpg
+sudo install -o root -g root -m 644 conda.gpg /usr/share/keyrings/conda-archive-keyring.gpg
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/conda-archive-keyring.gpg] https://repo.anaconda.com/pkgs/misc/debrepo/conda stable main" > conda.list
+sudo mv conda.list /etc/apt/sources.list.d/conda.list
+sudo apt update
+sudo apt install conda
+source /opt/conda/etc/profile.d/conda.sh
+echo 'source /opt/conda/etc/profile.d/conda.sh' >> ~/.bashrc
 
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
 sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
@@ -17,9 +19,9 @@ sudo apt-get -y install cuda=11.3.0-1
 
 
 
-conda create -n gptj python=3.7
+conda create -n gptj python=3.9 -y
 conda activate gptj
-conda install conda-forge::mamba
+conda install conda-forge::mamba -y
 mamba install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -y
 
 
@@ -36,6 +38,6 @@ export DS_BUILD_SPARSE_ATTN=0
 export DS_BUILD_OPS=1
 git clone https://github.com/microsoft/DeepSpeed -b v0.6.4
 cd DeepSpeed
-pip install . --global-option="build_ext" --global-option="-j`nproc`"
+pip install .
 cd ..
 ds_report
