@@ -16,6 +16,7 @@ sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda
 sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
 sudo apt-get update
 sudo apt-get -y install cuda=11.3.0-1
+echo 'export PATH="$PATH:/usr/local/cuda-11.3/bin"' >> ~/.bashrc
 sudo apt-get -y install cmake
 
 
@@ -23,7 +24,7 @@ sudo apt-get -y install cmake
 conda create -n gptj python=3.7 -y
 conda activate gptj
 conda install conda-forge::mamba -y
-mamba install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -y
+mamba install pytorch=1.10.2 torchvision torchaudio cudatoolkit=11.3 -c pytorch -y
 
 
 pip install datasets && \
