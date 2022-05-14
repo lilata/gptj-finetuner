@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 import sys
 import os
-output = ',text'
+output = ',text\n'
 cnt = 0
 for file in sys.argv[1:]:
     with open(file) as f:
