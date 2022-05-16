@@ -39,6 +39,7 @@ pip install triton
 export DS_BUILD_OPS=1
 git clone https://github.com/microsoft/DeepSpeed -b v0.5.8
 cd DeepSpeed
+# gcc <= 10
 pip install .
 cd ..
 ds_report

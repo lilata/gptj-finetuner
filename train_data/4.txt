@@ -1,0 +1,209 @@
+In this sub module we're gonna get into the details of something we've
+already alluded to several times.
+Which is the notion of continuity.
+So, what is continuity? It's a mathematical way of quantifying what is a
+nice function? Intuitively, continuous functions are the ones that behave
+well with respect to plotting.
+That is, if I try and plot them, nothing too crazy happens.
+I don't have any big, you know, asymptotes or strange places where the
+function's value isn't what I expect.
+So what we'll do in this sub module is state the definition formally, which
+will be in terms of limits.
+Then we'll give some intuitive definition, not really definitions but intuitive
+ways to think about it that are, maybe more convenient, especially on a
+timed environment like the CLEP where that you can't necessarily
+necessarily sit around computing every limit.
+And then we'll look at some specific examples and analyze their
+continuity.
+So what kind of question does continuity answer? It answers the question
+of, to compute a limit, is it the same as evaluating the function? So,
+question.
+When does the limit as x goes to c of f of x equal f of c? Answer.
+When f is continuous at c.
+Now this is a little bit tautological because I'm going to define continuity to
+be exactly when this happens.
+But that's the intuition we're trying to develop.
+The limit behavior sort of tells you what's happening nearby the point.
+And that f of c is the value at the point.
+When are those in agreement? That's when they're continuous.
+So the formal definition, or technical, is f is continuous out of point x if the
+limit is y goes to x, then f of y equals f of x.
+So, basically, I'm continuous at a point if my limit and my functions value
+agree at that point.
+So, visually, this would not be a continuous function.
+Because the limit is here and the functions value is here.
+So they do not agree, therefore, not continuous.
+So that's the technical definition.
+Mathematicians love it, I love it.
+Not always the most useful thing in the world.
+So what's an intuition here? What can we do instead of getting dirty with
+this definition? We can try and think about it in a less abstract way, and
+say a continuous function is one in which I can draw without lifting my
+pen.
+This isn't really true.
+There are plenty of continuous functions that you would have a hard time
+drawing without lifting your pen.
+But it gets the idea down.
+The types of things we're avoiding by looking at continuous functions are
+big jumps, for example.
+Or places like, for the function I just drew, where I have to stop drawing
+and jump down to fill in a dot then go back and continue.
+Another technical def, note, sometimes people talk about having a
+function be continuous without respect to a given point.
+So a function is continuous if it is continuous at every point.
+Okay, so in other words, one, the limit exists at every input.
+Two, the function agrees with all these limits.
+So let's again, let's look at a couple examples.
+So here I have a continuous function.
+Or certainly what looks to be a continuous function.
+It looks like I can certainly draw this without lifting my pen.
+Now over here, on the right, clearly I have a discontinuity here.
+So I have one discontinuity which implies the function is discontinuous.
+Now there are plenty of points for which this function is continuous.
+Basically everywhere else it looks like it's a contin, it looks like the
+function is continuous.
+But because there's one point at which it is not continuous, the whole
+function is said to be discontinuous.
+So, really, the function needs to be well­behaved everywhere in order for
+you to call it a continuous function.
+So let's look at just some examples now to understand continuity a bit
+better.
+So I'm gonna give some examples of functions.
+And we're gonna discuss whether they're continuous or not.
+So here's one we've kind of seen before.
+F of x equals one over x, if x does not equal zero.
+And then I'm going to give it a value at zero.
+Now, why do I have to make this, sort of, piecewise definition? Well, what
+happens if I try to plug in x equals zero into whatever x? I get infinity or
+minus infinity, or something bad.
+So I need to give the function a value at x equals zero.
+So what's the picture? Something like this, and then I also have that
+value.
+So the function is defined for all number, all real numbers.
+Is it continuous? Well.
+Does it look like it? Can I draw this without lifting my pen? Well, no.
+And in fact, clearly the only issue is going to be at x equals zero.
+So I'll say clearly issue at x equals zero.
+So I check.
+F of zero equals the limit as x goes to zero f of x.
+This is what I would need to have happen to have continuity at zero.
+So is it true? Well this equal to zero because of this statement here.
+But what about the limit? Well, we saw in the previous sub module this
+does not exist.
+So I have a discontinuity at x equals zero.
+Every other point is okay.
+We're not going to show this but I think it's clear that I'm continuous
+everywhere else.
+But at x equals zero, I'm discontinuous and hence the whole function is
+discontinuous.
+Now, an important question to ask is what if I had set the value at x
+equals zero to be something else? To be one or negative five or
+something? That would still not solve the problem.
+Because the lit as x goes to zero, doesn't exist.
+So there's no way to, sort of, plug the gap here.
+This function is, sort of, fundamentally flawed from the standpoint of
+calculus.
+I just can't make it continuous.
+I don't know how to fix this problem.
+There are more sophisticated techniques that can be done.
+But for us this is about as bad as it's gonna get.
+So here's another piecewise definition.
+For x less than or equal to one, I'll have two x plus one.
+If x is greater than one, the rule will be three x squared.
+So let's plot this.
+So let's start with two x plus one.
+So at zero, that's equal to one.
+One of these at three.
+So it's, maybe, something like this.
+So that's the first half of my function.
+And then, for x greater than one, I take on the value three x squared.
+So it looks something like this maybe.
+So not, your kind of usual function you might have seen in pre calculus.
+I have two different behaviors depending on if I'm greater than one or less
+than or equal to one.
+But is it continuous? Can I draw this without lifting my pen? The answer is
+yes.
+The functions value is cl, sorry, again, I'll say that clearly the issue would
+be at one.
+But is it a real issue? Well, does f of one equal the limit as x goes to one
+of f of x? This is the golden question here.
+Well f of one is equal to three.
+What happens as I come in from the left, here? Well this guy gives me
+three.
+So I'm good on that side.
+How 'bout here? What happens if I come in from the right? Well what is
+the limit as x goes to one of three x squared, which is equal to three? So I
+end up with three on the right as well.
+So this is equal to three.
+So I'm continuous at x equals one.
+And everything else is no problem.
+So, in fact, I am a continuous function.
+So this is an important example to understand that.
+Just because I have a piecewise definition, which is referring to these
+braces, here.
+What I define the function to be one way for certain inputs and another for
+other inputs.
+If I have a piecewise definition, these are classic examples where the
+function may be discontinuous.
+But they don't have to be.
+If I put the two pieces together correctly they sync up at the point of
+intersection and I get a continuous function.
+So it's really important to not just assume that piecewise function will be
+discontinuous.
+You really have to look at what's happening at this intersection or
+connection value.
+And only after you've done that kind of analysis can you make
+conclusions about continuity.
+Alright, so we've had some fun.
+We've drawn some plots.
+What can I say for sure in terms of continuity? What types of things
+should you commit to memory? Well, the following things are very helpful.
+Polynomials, exponentials, sine and cosine are all continuous.
+So anytime you have questions about limits involving sine, cosine,
+exponential polynomials, those are non, not serious questions.
+You don't have to do anything.
+They're continuous.
+So just plug in the value to the function.
+They're equal to the limit because it's continuous.
+So what kinds of other things can you say? Well.
+Rational functions, so this is something like p of x over q of x for
+polynomials p and q.
+These are gonna be continuous except when the denominator is zero.
+Because that's why in potentially you're gonna divide by zero so either I'm
+gonna blow up to infinity like I did with one over x.
+Or, if you remember from the previous example, I'm sorry, the previous
+sub module.
+I can have division by zero that actually has a limit.
+Because I factor something out the top and bottom.
+And the problem goes away.
+Now, one other function we might encounter is the logarithm.
+Now this is continuous because its domain is only zero to infinity.
+So even though it's sort of blows up as you go towards zero, the function
+isn't even defined at x equals zero.
+So I would say that this function is continuous everywhere.
+It just has a restricted domain.
+So what does that leave us in terms of our favorite functions? What types
+of things would, can we say for sure are discontinuous? Well, tangent, for
+one.
+The tangent function as, you know, we'll be able to refresh ourselves
+down the road, has discontinuities at pi over two, three pi over two, five pi
+over two; et cetera.
+Generally pi over two plus an integer multiple of pi.
+And there's no way to get around that discontinuity.
+Because I blow up to infinity or minus infinity there.
+Also, the remaining trig functions.
+Cotangent, secant, cosecant.
+These are all examples of discontinuous functions.
+We'll see more down the road, but it may be it's helpful to say take your
+standard functions and divide them into two groups.
+The continuous ones and the discontinuous ones.
+The continuous ones are the good guys.
+These are the ones that are easy to draw, easier, and that I can do
+calculus with.
+Or at least I have a hope of doing calculus with without having to do some
+sort of crazy surgery on the function ahead of time.
+The discontinuous ones are much more delicate.
+And you usually wind up restricting the domain so that the function is
+continuous on that domain.
+But we'll go into details when we get there.
+

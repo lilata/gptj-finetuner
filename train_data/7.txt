@@ -1,0 +1,100 @@
+We'll begin our discussion of derivatives with the notion of a tangent line.
+This will help us give a geometric formulation so we can get a mental
+picture of what's going on before we introduce mathematical definitions.
+Why do we talk about tangent lines? Why are they related to derivatives?
+Well, it turns out that the derivative will give us the slope of a tangent line.
+So let's start by discussing what we're talking about.
+So we say a line is tangent to a function if it intersects it only once.
+So the picture that you should have in your mind is something like this.
+So at this point I can draw this line here that just glances the function and
+then doesn't intersect it again.
+Now I am making a simplification here, which is that the line is allowed to
+intersect multiple times but only outside of a small interval.
+Right, so what I really want to be considering with tangent lines is, maybe
+this is a good example.
+If I look at this point at the bottom here, this line is tangent but this line is
+not because it passes through two points.
+So I'm really looking for lines that only hit the function one time.
+It turns out that I can characterize these tangent lines in terms of a
+quantity called the derivative.
+So how can I construct this tangent line? Well, it's not so obvious what
+sort of properties a tangent line would have.
+Mainly what I care about is its slope.
+Right, because how do I write a line? I write it as y equal mx plus b.
+So this is the slope and this is the y intercept.
+I can easily get the y intercept and the slope is a little bit trickier.
+So what you can do is start with something that we can compute easily
+and try and work our way to getting to tangent lines.
+So this is this general mathematical principle that one way to attack a
+difficult problem is to start with something simpler and try and turn the
+simple problem into the hard one.
+So in this case what we do is we consider tangent lines as the limit of
+secant lines.
+So a secant line is allowed to intersect the function twice.
+So if I'm looking for this blue tangent line here, one way to do it is to say
+fix this point and start looking at secant lines going through these two
+points.
+And notice that as I bring those points closer together the secant lines
+become better and better approximations of the tangent line.
+And I if I was somehow allowed to bring the two points and the secant line
+together completely, I would get the tangent line.
+So here's perhaps a slightly more precise picture that I generated in
+MATLAB.
+So in blue we have the function f of x equals x squared and I'm displaying
+it from x equals zero to x equals five.
+And I have a secant line that passes through two points, x equals one and
+x equals four.
+And what I'm going to do is bring these two points together so I can get
+an approximation of a tangent line.
+So here I've taken the point one and shifted it to the point three and the
+point four is still here.
+So now the tangent of this secant line intersects the function twice, but it
+almost is hard to tell that it's not intersecting it one time.
+If you look at this sort of small window here, the function and its tangent
+line are very close.
+I'm sorry the function and its secant line are very close together.
+And you can imagine if I were to continue to bring this point at three
+closer to four, the line would be coming very, very close to being tangent.
+And here, you know, up to some sort of computer approximation, I've
+actually computed the tangent line, so here just intersecting at x equals
+four.
+So you can think of this as being generated as a limit of secant lines,
+where I bring one of the points towards the point where I want the tangent
+line to be.
+So you're thinking now, okay fine, why did I need calculus to do this? This
+was all basically geometry and talking about lines, but I'm doing a limit
+process.
+I'm allowing one object to get very close to another one and asking what
+happens.
+This is exactly a limit.
+We spent the first module discussing limits and I mentioned that this was
+foundational to what we're going to do in the future, and this is one of the
+first places where we'll see this.
+In order to make this idea precise and mathematically justified, I need to
+introduce a notion of limit.
+So let's take a look.
+So the slopes of the secant lines are computed, you know, in the classical
+way because I have two points, right.
+I get two points because the secant line intersects twice, so it's not for
+free that I get these two points.
+It's because I have a secant line.
+And then of course I can just find the slope, right.
+Rise over run.
+So f of b minus f of a over b minus a.
+Right, so this is rise over run, delta y over delta x, I mean there's a million
+ways to say this, but I'm gonna say it as f of b minus f of a over b minus a.
+So to go back to compute the slope of the secant line here, I would do f of
+four minus f of three divided by four minus three.
+So what happens as a goes to b? I have the limit as a goes to b of f of b
+minus f of a over b minus a.
+I have a limit that's not easy to evaluate, right, because if I just plug in a
+equals b, I get zero over zero, so I need to be careful.
+And that's why we spent a bit of time developing these limit techniques for
+when you have indeterminate forms, because the definition of the
+derivative is going to look like this and will be indeterminate, zero over
+zero.
+But the key idea is, I can develop this idea of slope of a tangent line as a
+limiting process of something simple, of slopes of secant lines.
+What happens as I take the limit? I get the definition of the derivative
+which is where we're going to go now.
+

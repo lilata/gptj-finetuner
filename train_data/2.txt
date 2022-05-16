@@ -1,0 +1,139 @@
+Welcome to the beginning of our module on limits.
+We're going to start with the hardest thing.
+We're going to talk about the epsilon delta definition of a limit.
+This is a formal construction, meaning it's technical and abstract, but is
+designed to make all the types of techniques we're going to use down the
+road theoretically justified.
+So what is a limit? Well, a limit is the central object in calculus.
+We'll eventually focus on two notions in calculus.
+We'll focus on derivatives, and integrals.
+And both of them are going to be defined in terms of limits.
+So in order to be able to do serious mathematics with derivatives and
+integrals, we'll need to have some sort of understanding of limits.
+At least in a conceptual level.
+So the tool from which other fundamental definitions develop.
+The limit is also important because it really forms a line in the sand.
+Everything before the limit is generally considered to be basic.
+So all the mathematics you've probably done up to this point, including
+things like algebra, geometry, maybe even some statistics.
+These are of course fundamental subjects, and by no means easy.
+But there is a conceptual leap when you move towards using the limits.
+With the limit so many more tools become available.
+Because, due to its abstract definition, it really contains a lot of
+information.
+With limits you can do many different things.
+So sometimes limits are considered the gateway to higher mathematics.
+So what kinds of things will we say about limits? A typical statement
+would be something like, a function f of x, you know, one we have in
+mind, has a limit at sum point y.
+So what am emphasizing here is that having a limit is a point­wise
+definition.
+Meaning, I say things about having limits at given input values, not about
+the whole function having a limit.
+It's just about what's happening in each individual point.
+So for example, I can have a function with limits at certain points but not
+at other points.
+So let's look at the technical definition.
+So, quite complicated­looking.
+We say the limit is x goes to y of f of x equals L, if, for all epsilon, this is a
+Greek letter, ep­si­lon, there exists some at delta, greater than zero, so
+another Greek letter.
+Such that, if x minus y is less than delta, then f of x minus L is less than
+epsilon.
+So what's going on here? I'm giving you a definition for a limit existing.
+So we say that the limit is x goes to y if f of x equals L, if the following
+conditions are satisfied.
+What are these conditions? For every epsilon, there exists some delta,
+such that if zero is less than x minus y less than delta, which just means x
+is close to y because delta will be small, then f of x minus L is less than
+epsilon.
+This means f of x is close to L.
+The deltas and epsilons when they have particular values tell you how
+close they have to be.
+But essentially what this is saying is that, if x and y are close together and
+not equal, then f of x minus the limit is also close together.
+So let's draw a picture.
+So here are my y and x axes.
+So I should say the y and the limit definition is different than the y axis
+here.
+And I draw some function, and I pick a point.
+The limit definition, let's call this, say, c.
+So I ask the limit is x goes to c, of f of x equals L.
+So what does this mean visually? It means that if I'm close by c on the x
+axis, the corresponding f values should be close to L.
+So here is c minus delta, and c plus delta.
+So this is referring to that interval zero less than x minus y less than delta.
+Then when I look at the corresponding outputs, they fall in this little
+epsilon neighborhood, L minus epsilon, L plus epsilon.
+So small perturbations on the input lead to small perturbations around the
+limit.
+All the epsilon delta definition does is formalize this.
+And say, how do I actually write this intuitive idea down mathematically?
+So one remark I want to make is about this sign here.
+In some cases you might think that this is unnecessary.
+All this does is say that x does not equal y.
+Right, because the only way x minus y in absolute value is equal to zero,
+is if x equals y.
+So I don't require that the value of f at y is equal to L.
+That's not necessary.
+In fact, if that is the case, then I get what's called a, well I mean you could
+say that this is somehow obvious, right, so that's why you see this
+definition the way it is.
+So I want to make a remark here that this picture is maybe not the most
+representative of, of functions of interest, because this is a continuous
+function.
+Which is a case in which, all of the limits exist and are equal to the
+function's values at that point.
+So there'll be more interesting examples we look at where functions may
+not have limits, or have limits that are different than the function's value.
+So as a first remark, the limit does not need to exist.
+In these cases we say, the limit DNE, does not exist.
+We'll see some examples of this in sub­module 1.2.
+And I'll remark again, the special case when f of x exists and is equal to
+the limit as y goes to x of f of y, is special.
+This is called being continuous.
+Continuous functions are the functions for which we basically can do
+calculus.
+So we'll discuss this notion in more detail in sub­module 1.3.
+Now, one comforting remark I want to make is that, although this epsilon
+delta definition is very technical and abstract, it's not really incredibly
+necessary for what we are doing on the CLEP exam.
+The epsilon delta definition is important historically.
+It wasn't formalized until the end of the 1800's, which is over 200 years
+since the start of calculus.
+So people had been doing calculus for quite some time, and had gotten
+very important scientific results in, for example, physics, using the
+techniques of calculus.
+All without the epsilon delta definition.
+They didn't really need this.
+The only reason it was brought up was to put mathematics on a firm
+philosophical ground.
+People were running into strange theoretical issues with calculus.
+Hence, they needed to define everything very clearly, so that they could
+really understand what kinds of mistakes they were making.
+And that was when the epsilon delta definition was born.
+So it's really a very modern mathematical construction, and is much more
+modern than most of the things we'll see in this course, which are
+classical results of calculus.
+And in particular are quite old.
+So, what do we need to do instead of the epsilon delta definition? One of
+the more important tools for limits is visualization.
+Which means to plot the function.
+If you can plot the function, you can make good guesses about what the
+types of limit behavior are, without having to get your hands super dirty by
+messing around with the epsilons and deltas in this definition.
+However, it is an important mark of mathematical development to see the
+epsilon delta definition for the first time.
+It's tough, for sure, but it's actually very beautiful.
+And you may not appreciate this until you've studied it two, three, four,
+five times.
+I didn't understand the definition really until my fourth time studying
+calculus.
+And at that point I could understand what types of behavior it's really
+capturing.
+So if you don't understand it the first time, It's not the most important thing
+for the CLEP exam.
+But it is important to think about it a little bit, so that when you see it
+again, which, you inevitably will, if you stay studying mathematics, it
+becomes clearer.
+And then on the third time it becomes clearer still.

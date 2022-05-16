@@ -1,0 +1,39 @@
+Welcome to module two.
+This will be on the theory of the derivative.
+In module three, we'll go into applications of it as a tool for problem
+solving.
+But in this module, we're gonna focus on the hard core mathematics.
+We'll begin with a discussion of tangent lines, which will geometrically
+motivate some of what follows.
+We'll then go to a formal definition of the derivative, which will be, again,
+very mathematical and in terms of a limit.
+We'll then discuss rates of change.
+2.4 will be a very large sub­module.
+It will be a discussion of different rules you can use to compute
+derivatives.
+We don't want to be using the definition every time we have to compute a
+derivative.
+It becomes too slow, so we'll discuss ways to deal with certain types of
+functions in this sub­module.
+We'll then chat briefly about higher order derivatives, that is, derivatives
+beyond a first derivative.
+These also have meaning and are computed in the same way.
+In 2.6, we'll discuss a topic that's a little bit tricky called implicit
+differentiation.
+This gives us a way for computing derivatives when I don't explicitly have
+a function in the form y equals f of x.
+So, when things are mixed up, how do you take derivatives? 2.7 is
+L'Hopital's Rule.
+This is a nice trick to compute certain types of limits.
+In 2.8, we'll say essentially as little as we need to say about the basic
+theoretical results, regarding when functions are differentiable versus
+continuous.
+This is a little bit important for the CLEP exam, but we'll only discuss the
+essentials.
+And then, we'll conclude in 2.9 with a discussion of how to take the
+derivative of an inverse function.
+There's a nice theorem that says I don't necessarily need to be able to
+compute the inverse function exactly.
+I can use special tools and a cute algebraic argument to show you exactly
+what the derivative of an inverse function needs to be, given the original
+function.

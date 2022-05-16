@@ -1,0 +1,187 @@
+Having discussed tangent lines as a motivation, we will now get into
+defining the derivative formulae.
+The derivative is one of the central objects of calculus.
+Really one of the two.
+Limits of the foundation but we want them to be able to study derivatives
+and integrals.
+So these are derivatives which we will do in this module and module three
+and then their counterpart integrals.
+And measures the rate of change of a function.
+But in an instantaneous sense.
+That is not the rate of change over some interval which we don't need
+calculus to compute but the rate of change at a given time so you can
+imagine the derivative is sort of like the speedometer in your car.
+As you're driving, it tells you how fast I'm going right now.
+Imagine you had a speedometer for any kind of function.
+This is the derivative.
+So there's two different things we have to do with derivatives.
+We have establish the mathematics, the theory.
+What is the derivative, how do I compute it? What kind of tricks can I use?
+What kinds of theoretical properties does it satisfy? This will be module
+two.
+In module three, we will use it do problem solving.
+We will use it solve rate of change problems and related to some
+problems in physics.
+We can also use it to help us plot functions more accurately than without
+derivatives.
+So we will focus on those types of applications and problems in module
+three.
+So let's recall what we were discussing in module sub­module 2.1.
+Slopes of secant lines are easy to compute.
+All I need is two points and I can find the slope of a line passing through
+those two points in the classical way.
+If I have a line passing through a, f of a, b, f of b, so just note that these
+will be given because I consider secant lines.
+So I get these two points for free.
+So for example here would be a, f of a and here would b, f of b.
+I have these two points and I create a line passing through them.
+How do I know the slope of a line passing through two points? This is the
+seventh grade stuff.
+This is f of b, minus f of a over b minus a.
+So we haven't done any calculus yet.
+We're just refreshing our minds for things we already have studied in our
+lives.
+But now I want to understand the slope of the tangent line.
+I need a limit.
+I need to take this ratio and let b run towards a.
+Now let's see here, but the idea is that if I plug in directly I get a problem
+because I get zero over zero, which is indeterminant.
+So now we will look at the formal definition of a derivative.
+Let f of x be a function.
+I don't assume as continuous but it will turn out to be necessary.
+The derivative of f at x is defined to be function, f five of x.
+So this is the first derivative of f of x.
+If you don't say first, people won't know what you mean.
+This is equal to the limit as age goes to zero of the following ratio.
+F of x plus h minus f of x over h.
+So again what happens if I plug in? I get plugging in h equal zero.
+I get f of x plus zero minus f of x over zero so I'm dividing by zero, bad.
+In general there's nothing good that's gonna happen from dividing by
+zero.
+At best, I do some algebra and things work out.
+So I get f of x minus f of x over zero so zero over zero so indeterminant.
+Now I claim that this derivative definition is really just a rephrasing of what
+we had with the secant lines.
+In that case, I looked at the limit of the slopes of these secant lines as a
+one to b.
+Here I don't have b minus a in the denominator.
+I have h.
+So let just note that if I want to compute the limit, as a goes to b, of f of b
+minus f of a over b minus a I can do what will wind up being a standard
+trick in calculus, which is to make a substitution.
+So I'll let b minus a be equal to h.
+And then what do I get? This gives me if a is going to b, then b minus a is
+going to zero.
+So I switch limit as a goes to b to the limit as h goes to zero.
+Because a minus b, a goes to b so a minus b goes to zero.
+And then this division by h replaces the division by b minus a.
+Then what happens in the numerator? F of b here and f of b plus h.
+Maybe it would've been easier to switch that to a minus b but it is the
+same up to a sign.
+So with the substitution I basically see how I can go from the limit
+definition or rather the limit that comes out of taking limits of secant line
+slopes to this derivative definition where I am no longer taking b to a but
+I'm taking some related quantity h to zero.
+So just wanted to give you some sense of how to make this connection
+that what we were doing with secant lines can be related to what we're
+doing with derivatives now so I sort of sketched out how to show that
+these things are the same but it would helpful to really go home and go
+back and forth between them in your own handwriting to see that really
+we're doing the same thing.
+Even though these definitions look different.
+That even though this appears different from this they're really related
+after make this substitution here.
+So one point to notice is that the derivative is defined in terms of a limit.
+Hence why limit is so foundational for us.
+And of course I've said this several times if I plug in h equals zero things
+don't work out so well.
+I get the indeterminant form zero over zero and there's really nothing I
+can do with that without having specific access to the function f.
+Without being able to do some algebra.
+What we will wind up doing especially in sub­module 2.4 is developing
+techniques and tricks for computing derivatives as standard functions.
+Because working with this limit definition is not always very convenient.
+What we're going to do now though is actually do that.
+We're going to look at a couple of examples of computing derivatives I
+would say by hand that is without any sort of standard rules.
+If you've seen some calculus before or you're watching my videos for not
+the first time we're gonna compute some derivatives now without the
+power rule, or the product rule, the chain rule or anything like that.
+We're gonna do everything from first principles.
+So let's start with a simple function, f of x equals x.
+First order polynomial.
+Let's compute the derivative.
+So f time of x is defined to be the limit as x goes to zero.
+Of f of x plus h.
+I'm sorry, h goes to zero.
+Divided by h.
+So how can I compute this? Well I have the formula for f.
+So I can actually compute exactly what f of x plus h is.
+It is x plus h.
+And then f of x is x.
+This is the key point.
+In order to go from this abstract definition to a concrete one, I need to
+apply the rule for f but once I do that things are beautiful.
+Because now I have this x cancels with this x and I just end up with the
+limit as h goes to zero of h over h.
+So is this indeterminant if I plug it indirectly? Yes I get zero over zero but
+it is kind of indeterminant in a way that's a little stupid because I can see
+exactly what the limit is equal to.
+At h equals zero, this is indeterminant but when I'm computing the limit I
+can cancel the h's.
+And I get the limit as h goes to zero of just one.
+What is the limit as h goes to zero of one? Its just one.
+So well done.
+We've computed our first derivative by hand.
+All we had to do was go to the definition and plug in the rule for f.
+In this case, it was rather simple because f was just a degree one
+polynomial.
+Now we're going to look at a degree two polynomial but we will have to be
+a bit more careful.
+So here lets let f of x be equal to x squared.
+We're going to compute f prime of x.
+So from the definition this is the limit.
+As h goes to zero of f of x plus h, minus f of x, divided by h and I compute
+this again by evaluating f.
+Okay so what do I end up with here? I've x plus h quantity squared minus
+x squared divided by h.
+So to make this clear, I'll actually expand the first term in the numerator.
+I'll foil x plus h squared so how's that work? I'll get an x squared plus two
+times x times h plus h squared.
+That's what I get from foiling x plus h squared minus x squared over h.
+And now I'm going to again cancel some things out.
+It won't be quite as simple as it was when we just had f of x equals x, but
+it will work out as almost as nicely.
+So I can cancel these x squareds and get the limits as h goes to zero of
+two x h plus x squared over h.
+How about what can I cancel now? Well everything has at least one copy
+of h in it.
+So I can cancel this h in the denominator with an h here and one of the
+h's and h squared.
+h squared divided by h is h, not one.
+So what I get is the limit as h goes to zero of two x plus h.
+Now last time, I evaluated the limit of the limit as h goes to zero of one.
+This was independent of h.
+It didn't appear anywhere.
+Here h appears as a plus h.
+So when I apply this limit, I just get two x plus zero because h has been
+sent to zero so I get two x.
+Okay quite a bit of work to compute this one derivative.
+So the derivative of f of x equals x squared is two x.
+Its rate of change is increasing as x increases, which makes sense
+because the quadratic gets steeper and steeper as you go along that.
+Keep in mind how difficult it was to compute this derivative.
+Imagine having to do this every time for every new function you were
+given.
+Go to the limit definition plug in the rule for f and try and find some
+algebraic tricks and tools to be able to help yourself.
+Not what you want to do.
+It is important.
+I'm a mathematician so I truly believe this.
+It is important to know the fundamentals.
+To be able to look at the definition try to understand what it is saying.
+Make sure it is written the right way to capture what you want to say.
+But for the club exam, we will develop other ways of doing derivatives.
+We will develop some basic rules and tools that help us so we don't have
+to go to the limit definition every time.
+This will be the content of our biggest sub­module.

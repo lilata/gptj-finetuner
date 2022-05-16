@@ -1,0 +1,28 @@
+Welcome to the Modern States course in calculus.
+Our goal is to prepare you for the CLEP exam in calculus.
+We'll start with the fundamental notion of the limit.
+From this, we'll develop techniques for derivatives and integrals, but this
+is really our foundation.
+So we'll begin with the formal definition of the limit.
+So this is going to be a bit technical, and is sometimes called the epsilon­
+delta definition of the limit.
+We basically just have to do it to get it out of the way.
+It's classical, it's standard, but it won't be so important for us.
+We'll then do the more practical work of how to actually compute some
+basic limits to understand how they're different than just evaluating the
+function.
+We'll then introduce the notion of continuity, which is essential for
+calculus.
+If you think of calculus as a method for studying functions, continuity is a
+minimal assumption to make on functions to do calculus.
+That is, if I don't have a continuous function, it's hard to do anything with
+the tools we develop in this course.
+And the last we'll develop is something called the squeeze theorem,
+which is very specialized tool for handling certain types of limits.
+So this is, I think, some very beautiful mathematics, the squeeze theorem,
+there's certainly something you would cover in more detail in a proof­
+based calculus course, something you would take maybe in your third
+year of college.
+But for us, it's just a tool, and we'll only spend a little bit of time on it.
+So the essentials will be the first three, and 1.4 would be something a
+little bit special.

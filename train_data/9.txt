@@ -1,0 +1,159 @@
+Having introduced the formal definition of the derivative, we'll talk now
+about how the derivative relates to rates of change.
+So let's recall our formulation of the tangent line and the secant line.
+The slope of the secant line was f of b minus f of a over b minus a.
+So it was the difference between the change in the ratio between the
+change in the outputs and the change in the inputs.
+We can think of this as the average rate of change of the function f on the
+interval ab.
+Why does this make sense? Well, in the numerator, I have f of b minus f
+of a.
+So where do I end versus where do I start? And I divide that by b minus
+a.
+So how far did I go? All right, the distance between my start a and the
+end b.
+All right, so this can be thought of as the end output and the start output,
+so that the numerator is the change in output and that this is your end and
+this is your, well, it's the end input.
+And this is your start input.
+So I'll write it again as delta y over delta x.
+This is sort of a more simple way to think about it, rise over run.
+But in this sense the slope of the secant line is the average rate of
+change on the interval.
+Now, what we've done so far is to say well, what happens if I take a to b?
+What happens if I take these slopes of the secant line and start bringing a
+towards b so that I get something approaching the slope of a tangent
+line? We formulated this as a limit problem and related it to the derivative.
+But now I'm interpreting the secant line slope as the average rate of
+change on an interval.
+So what happens as I let this interval shrink? What happens to this
+average rate of change? Well, let's write b equals a plus h.
+So h here, we simply use algebra to compute as b minus a measures
+how close a and b are.
+As h gets smaller, a and b become closer together.
+Then I can say that the average rate of change of f on the interval a
+comma a plus h is just f of a plus h minus f of a over h.
+All right, so, how do I get this? Well, the definition would be f of a plus h
+minus f of a divided by a plus h minus a.
+So the numerator is what we expect, but the denominator simplifies to h.
+So all I've done is rewritten b as a plus h.
+And rewritten what the corresponding average rate of change is.
+But now this looks exactly like the formula for a derivative.
+Right, all I have to do in this case is take h to zero, and I get the limit
+definition of a derivative.
+Right.
+So what does this correspond to in terms of our average rate of change?
+Letting h go to zero shrinks the size of the interval we average over.
+So if I started with the interval a and here's a plus h, as h goes to zero,
+this right endpoint starts to shift to the left.
+So that eventually I'm going to be thinking there's no interval left at all, it's
+just the point a.
+Right, so just to summarize, this shrinks the interval in question to be
+basically a by itself.
+So what sense does this have? Instead of talking about the average rate
+of change over some interval, I'm now talking about the rate of change
+just at the point a.
+So the interval is gone.
+The limiting process has removed everything that wasn't just the point a.
+So now I have what we call instantaneous rate of change.
+Right, so this is versus average rate of change on an interval.
+Right, and this is just by observing that when I take the limit as h goes to
+zero of f of a plus h minus f of a over h, this is by definition, f prime of a.
+So this is the power of calculus.
+I can take a quantity that was defined as the average rate of change and
+talk about the exact rate of change in a point.
+And I did this through the limit process.
+So we saw this with the secant line and we're seeing it again with rate of
+change.
+And this is basically what calculus does for us.
+It let's us go from quantities related to the average something to quantities
+related to the instantaneous something.
+So it's a strict strengthening of the types of things we can do with
+mathematics.
+And a useful way to think about derivatives is as instantaneous rates of
+change.
+The type of argument we've just gone through explains in what sense we
+mean this.
+So as an exercise, let's compute average and instantaneous rates of
+change for some simple functions.
+So actually this one's, you know, we've seen from the previous
+submodule, this is not always so simple.
+So we'll let f of x be equal to x squared.
+We'll start by finding the average rate of change on the interval minus two
+to two, which is straightforward.
+Then we'll compute the instantaneous rate of change at x equals two.
+So just to remind you what this function looks like, something like this.
+So for the average, I do f of two minus f of negative two over two minus
+negative two.
+So I get two squared minus negative two squared over four.
+So I get four minus four over four, so zero.
+Which makes sense, I mean this is the slope of the secant line going
+through those two points.
+So I get zero.
+Now this had no calculus in it.
+This was all basic algebra and understanding how to create slopes of
+lines given two points.
+Now we'll do a little bit of calculus.
+We'll pass from the average rate of change to the instantaneous one.
+And we do this by taking a derivative.
+Well, I know it's equal to f prime of two, but how do I compute this? Well,
+we'll see in the next submodule that this is a very straightforward function
+to differentiate, which means to take the derivative.
+But we don't have that tool yet.
+So I guess all we can do is go back to the limit definition.
+But we saw in the previous submodule how to compute this derivative.
+We went through the exercise of differentiating x squared and we saw the
+derivative of f of x equals x squared is two x.
+So we saw in previous submodule that f prime of x is equal to two x, so
+that tells me f prime of two is equal to four.
+So my instantaneous rate of change is four in this case.
+All right.
+So let's look at a slightly different one.
+So here I have f of x equals c times x for some fixed constant c.
+So for example, f of x could be four x or negative two x or so on.
+So it's some line with slope c.
+And I want to start by finding the average rate of change on the interval
+and then find the instantaneous rate of change x equals one.
+So let's start with the average, so I do f of three minus f of negative one
+divided by three minus negative one.
+So what's f of three.
+Well, it's three times c minus f of minus one, which is negative c, divided
+by three plus one.
+So I get four c divided by four, so just c.
+So the average rate of change is just equal to c.
+How about the instantaneous? Well, in this case, I have to take the limit of
+f of one plus h minus f of one divided by h.
+Plug in f of one plus h is c times one plus h minus c.
+My h.
+So I get the limit as h goes to zero, so this c times one will cancel with this
+minus c, and I get ch over h, the h's cancel.
+Finish it here.
+Limit as h goes to zero of c, so just c.
+Notice that the instantaneous rate of change happens to be equal to the
+average rate of change.
+So is this a coincidence? No.
+In fact, if you go back and look at the argument that I made for why the
+average rate of change on the interval minus one to three was equal to c,
+you'll see that this would've been true for any choice of interval.
+It had nothing to do with the particular choice minus one to three.
+Would've exact same technique would've worked for any interval.
+So now the question is, I have a function f of x equals c times x.
+And its average rate of change on every interval is c.
+Its instantaneous rate of change is also equal to c.
+Is this special or not? And the answer is it is special.
+The only functions that have this property that they're instantaneous rate
+of change is equal to their average rate of change are functions that have
+this form, or rather, you know, this is, I guess it would be things like cx
+plus d for some choice of constant d.
+But in general, functions will not have this property, only the most simple
+ones have their average rate of change be equal to their instantaneous
+rate of change.
+You might ask how in the world one could begin to discuss these types of
+things? You can actually use integration to make this type of argument
+very precise.
+For us right now, it's enough to understand that in general the picture is
+more complicated.
+We saw for our quadratic example that the average rate of change was
+different than the instantaneous rate of change.
+The general situation is more like the quadratic than it was for f of x
+equals c times x.

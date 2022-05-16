@@ -1,0 +1,26 @@
+So far, in our study of derivatives, everything has been somewhat difficult,
+I would say.
+We introduced the definition of a derivative and before and after that, we
+had related it to two geometric concept, by one geometric concept, the
+idea of the secant line, the tangent line, and another more general
+concept that of average and instantaneous rates of change.
+But in all of these cases, when we actually had to do something with the
+derivative, we had to take a limit and that could get tricky.
+The most complicated thing we looked at was taking the derivative of f of
+x equals x squared which is really not so complicated in the grand
+scheme of things but even that was a little bit difficult for us.
+What we're going to do in sub­module 2.4 is present a variety of
+techniques to compute derivatives quickly.
+We'll show some basic rules to start with, then we'll go to probably the
+most important derivative rule which is the chain rule, which discusses
+how to compute derivatives of compositions of functions.
+We'll then look at exponential and logarithmic functions, trigonometric
+functions, and inverse trigonometric functions.
+Those three sections, exponentials logs, trig, inverse trig requires some
+memorization.
+We'll introduce the basic rules for these and look at some examples, but
+only through a lots and lots and lots of practice can you really hope to
+commit these rules to memory so that when you take the CLEP exam and
+they ask you something like, "What's the derivative of arctangent of X
+plus one?", it comes in 15 seconds.
+Only through practice can you get to that level.

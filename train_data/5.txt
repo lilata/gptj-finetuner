@@ -1,0 +1,121 @@
+We will conclude our study of limits with something a little bit special.
+We're going to introduce a technique that's useful for computing
+essentially one very specific but important limit.
+It has other applications, but it's almost always motivated the same way.
+It's called the Squeeze Theorem.
+So, there are no one­size­fits­all methods for computing limits.
+We've seen many different techniques: factoring, noticing properties of
+absolute value, plotting functions and evaluating them when possible,
+ascertaining the behavior geometrically, and there are many more we
+could get into.
+So having more tools in our arsenal is very helpful, because every
+problem can potentially be different than the one that came before.
+So one technique that is incredibly useful and is really, kind of basic
+principle in mathematics is to take one problem and compare it to
+something else.
+Maybe the problem I'm looking at right now is very confusing to me, but
+it's somehow related by an analogy to another problem that I know how to
+solve.
+So if I can somehow take that solution and apply it to my new one, then I
+could potentially make progress.
+And this is the basic idea behind what's called the Squeeze Theorem.
+Why is it called "Squeeze"? Well, what I'm going to do is take a function
+whose limit I want to evaluate and compare it to two other functions: one
+that's smaller than it, and one that's bigger than it.
+Hopefully, I can study the limits of those functions, then the Squeeze
+Theorem tells me how I can study the limit of the function squeezed in­
+between.
+So here's one way of writing it.
+So suppose I have three functions: g, f, and h.
+Now g is the one I care about, so this is my function, and I need to find g.
+I need to find h.
+But the theorem says suppose that g is less than or equal to f, which is
+less than or equal to h on some interval containing y.
+So for example...
+You know...
+Maybe ­1,1 and the point of interest is 0.
+So I need to have this inequality on some interval containing the point of
+interest.
+Then if this is true, I can basically take the string of inequalities and just
+throw some limits on it.
+The limit as x goes to y of g of x is less than or equal to the limit as x goes
+to y of f of x, which is less than or equal to the limit as x goes to y of h of
+x.
+So I just took the first line and threw some limits on.
+So the picture is not too bad.
+So I'll draw my three functions in three different colors.
+Here's y...
+So let's make this h.
+Let's make this f.
+And we can make this g.
+So the power of the Squeeze Theorem is when you have f sandwiched
+between h and g, but that they all agree at the limit of value y.
+Because then the hypotheses of the theorem are satisfied and then I can
+apply the conclusion, which is that the limits also satisfy this inequality.
+If the limit on the left and on the right in the stream of inequalities are
+equal, they have to be equal to the one in the middle.
+Hence I can determine the limit as x goes to y of f of x through these
+other two limits, which are hopefully easier to compute.
+Now we're not gonna prove this.
+Really, we're not gonna prove anything in this course.
+That would typically be done in a proof­based calculus class.
+We'd really understand why the Squeeze Theorem is true.
+We're gonna sketch how to apply it to a very classic limit: the limit as x
+goes to 0 of sin(x) over x.
+Alright, so just by plugging in, I get nowhere.
+I get sin(0) over 0, so 0 over 0, which is indeterminate.
+So, not surprisingly, if it's an interesting problem, I can't do the simple
+thing.
+I can't just plug in x equals 0.
+I need to do something more sophisticated.
+Alright, so just to summarize, direct substitution, i.e.
+plugging in...
+fails.
+I mean, generally you should be wary of plugging in.
+It only works if you're continuous.
+And if I just give you some formula for a function and it doesn't fit into,
+say, a polynomial regime or exponential, you don't know if it's continuous
+or not.
+So you really have no reason to suspect that plugging in will do anything.
+So a cool exercise, which can be done using just geometry...
+I will not sketch it, but if you Google this, there's a million different sort of
+proof sketches.
+You can show that sin(x) over x is bounded by 1 above and cosine below.
+So this is playing the role of like, f of x, this is my g, and this is my h.
+I'll say this is only true for certain...
+values of x near 0.
+This inequality holds.
+So if I can establish this inequality, which we're taking for a fact, then I
+can use the Squeeze Theorem to put limits on all of these.
+And now you can see why it's a useful result.
+I have no idea how to compute the limit in the middle.
+Sin(x) over x, I mean I can't really do any algebra or anything like that.
+For those of you who may have seen it, you could use Taylor Series, but
+we will not do that.
+But with the Squeeze Theorem, the limit is not so bad because what's the
+limit as x goes to 0 on the right? Well, it's just the limit as x goes to 0 of 1.
+So it's just 1.
+On the left, I have the limit as x goes to 0 of cosine of x.
+Well, cosine is continuous, we've established this, and its value of 0 is 1,
+so the limit is also 1.
+So let's look back at the inequality now.
+I have 1 is less than or equal to the limit I care about, which is also less
+than or equal to 1.
+So it's the only way you can be less that or equal to 1 and greater than or
+equal to 1.
+That's if you're equal exactly to 1.
+So we get the result we care about.
+So this is incredibly standard in a classical and it's really one that's worth
+committing to memory.
+In order to really understand why it's true, we would need to show this
+initial inequality.
+That cosine is less than or equal to sin(x) over x, which is less than or
+equal to 1, but that's not so easy.
+That's something that I'm not going to show you because it requires a bit
+of geometry, but it's certainly within your capabilities.
+You know, just wake up one morning, have a nice cup of coffee, spend
+half an hour reading it, and I think it'll make sense.
+But for us, the really important aspect of this calculus is to show what you
+can do with the Squeeze Theorem.
+Once I have this initial inequality on functions, I can just throw some limits
+on and really compute something pretty amazing.
