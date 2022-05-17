@@ -24,6 +24,7 @@ sudo apt-get -y install cmake
 conda create -n gptj python=3.7 -y
 conda activate gptj
 conda install conda-forge::mamba -y
+mamba install -c nvidia/label/cuda-11.3.0 cuda
 mamba install pytorch=1.10.2 torchvision torchaudio cudatoolkit=11.3 -c pytorch -y
 
 
